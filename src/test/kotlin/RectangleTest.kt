@@ -5,13 +5,11 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 
-
 @DisplayName("A Rectangle class test case")
 internal class RectangleTest {
 
     @Test
     fun isSquare() {
-
     }
 
     @Test
@@ -19,7 +17,6 @@ internal class RectangleTest {
     fun getArea() {
         val myRectangle = Rectangle(3, 3)
         assertEquals(9, myRectangle.area)
-
     }
 
     @Test

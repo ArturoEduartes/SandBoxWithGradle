@@ -8,10 +8,9 @@ class Calculator {
         assert(b != 0) { "Division by Zero" }
         return a / b * 1.0
     }
-
 }
 
 fun main() {
     val a = Calculator()
-    a.div(2,0)
+    a.div(2, 0)
 }
